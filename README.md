@@ -1,5 +1,5 @@
 # BLIP-2 Multimodal Image Captioning, Q&A, and Retrieval System
-
+![img1](https://github.com/user-attachments/assets/03384ae2-412f-45a9-8e66-7aa7a98f7043)
 This project integrates Salesforce's BLIP-2 with OpenAI's CLIP to build a multimodal system that:
 - Generates captions for images,
 - Answers visual questions, and
