@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="360" viewBox="0 0 1400 360" role="img" aria-labelledby="title desc">
+  <title id="title">BLIP-2 × CLIP Multimodal Studio</title>
+  <desc id="desc">One image flows through captioning, visual question answering, and semantic image retrieval.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#050C20"/><stop offset="0.48" stop-color="#092A55"/><stop offset="1" stop-color="#071A33"/></linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#67E8F9"/><stop offset="0.5" stop-color="#38BDF8"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+    <linearGradient id="caption" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#3B82F6"/></linearGradient>
+    <linearGradient id="retrieval" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#EC4899"/></linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#DBEAFE" stroke-opacity="0.04"/></pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1400" height="360" rx="28" fill="url(#bg)"/>
+  <rect width="1400" height="360" rx="28" fill="url(#grid)"/>
+  <circle cx="1210" cy="70" r="240" fill="#0EA5E9" opacity="0.07"/><circle cx="140" cy="390" r="230" fill="#7C3AED" opacity="0.08"/>
+  <g transform="translate(82 62)" font-family="Inter,Segoe UI,sans-serif">
+    <rect width="224" height="32" rx="16" fill="#38BDF8" opacity="0.13"/><text x="112" y="22" text-anchor="middle" fill="#BAE6FD" font-size="12" font-weight="800" letter-spacing="1.8">MULTIMODAL AI STUDIO</text>
+    <text x="0" y="112" fill="url(#brand)" font-size="78" font-weight="900" letter-spacing="-1">BLIP-2 × CLIP</text>
+    <text x="3" y="160" fill="#EFF6FF" font-size="29" font-weight="760">See · Describe · Answer · Retrieve</text>
+    <text x="3" y="200" fill="#A7C7E7" font-size="18">A GPU-powered vision-language playground built with Gradio</text>
+  </g>
+  <g transform="translate(820 52)" font-family="Inter,Segoe UI,sans-serif">
+    <g transform="translate(0 80)">
+      <rect width="118" height="118" rx="24" fill="#102A46" stroke="#38BDF8" stroke-width="2"/>
+      <circle cx="40" cy="39" r="12" fill="#FBBF24"/><path d="M18 93L48 60 70 80 84 65 102 93Z" fill="url(#caption)" opacity="0.9"/>
+      <text x="59" y="140" text-anchor="middle" fill="#BAE6FD" font-size="12" font-weight="800">IMAGE</text>
+    </g>
+    <path d="M134 139H190" stroke="#38BDF8" stroke-width="4" filter="url(#glow)"/><path d="M180 130L193 139 180 148" fill="none" stroke="#38BDF8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <g transform="translate(200 80)">
+      <rect width="148" height="118" rx="24" fill="#10233E" stroke="url(#caption)" stroke-width="2"/>
+      <text x="74" y="43" text-anchor="middle" fill="#E0F2FE" font-size="20" font-weight="900">BLIP-2</text>
+      <text x="74" y="70" text-anchor="middle" fill="#7DD3FC" font-size="12">caption · VQA</text>
+      <path d="M37 91H111" stroke="#67E8F9" stroke-width="4" stroke-linecap="round" opacity="0.75"/>
+    </g>
+    <path d="M364 139H420" stroke="#A78BFA" stroke-width="4" filter="url(#glow)"/><path d="M410 130L423 139 410 148" fill="none" stroke="#A78BFA" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <g transform="translate(430 80)">
+      <rect width="138" height="118" rx="24" fill="#21183F" stroke="url(#retrieval)" stroke-width="2"/>
+      <text x="69" y="43" text-anchor="middle" fill="#F3E8FF" font-size="20" font-weight="900">CLIP</text>
+      <text x="69" y="70" text-anchor="middle" fill="#C4B5FD" font-size="12">semantic search</text>
+      <g transform="translate(33 85)"><rect width="20" height="16" rx="4" fill="#8B5CF6"/><rect x="26" width="20" height="16" rx="4" fill="#C084FC"/><rect x="52" width="20" height="16" rx="4" fill="#EC4899"/></g>
+    </g>
+    <text x="384" y="252" text-anchor="middle" fill="#C4D8F3" font-size="13" font-weight="750">CAPTION → TEXT EMBEDDING → TOP-K GALLERY</text>
+  </g>
+  <rect x="1" y="1" width="1398" height="358" rx="27" fill="none" stroke="#DBEAFE" stroke-opacity="0.13" stroke-width="2"/>
+</svg>
